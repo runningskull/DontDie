@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Don't Die!</title>
+
+    <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.placeholder-label.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.tipsy.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/cupertino/jquery-ui.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/style.css" type="text/css" media="screen" charset="utf-8" />
+</head> 
+<body>
+    <header>
+        <h1>Stay Safe!</h1>
+        <h2>Let someone know where you're going and when you'll be back!</h2>
+    </header>
+
+    <form id="message">
+        <p>Hey, <input autofocus="autofocus" tabindex="1" type="text" id="name" data-placeholder="John">.</p> 
+
+        <p>Just want to let you know I'm taking a trip to
+        <input tabindex="10" type="text" id="location" data-placeholder="Rocky Mountain National Park">.
+        </p>
+
+        <p>I'm heading out on <input tabindex="20" type="text" id="start-date"><br/>
+        and I'll be back on <input tabindex="30" type="text" id="end-date"><br/>
+        <input tabindex="40" type="checkbox" id="details-toggle" /><label for="details-toggle">Give 'em <i>&nbsp;hell&nbsp;</i> more details</label>
+        <textarea tabindex="50" id="details" style="display:none"></textarea>
+        </p>
+
+        <p>I'll be totally fine, but this way if anything happens (alien abduction, etc&#8230;), 
+        at least you'll know where I am.</p>
+
+        <p>I'll get in touch when I get back so you know I made it.</p>
+
+        <p>Thanks!</p>
+
+        <p>Sincerely,<br/>
+        <input tabindex="60" type="text" id="signature" data-placeholder="John Q. Awesome">
+        </p>
+    </form>
+</body>
+
+</html>
+
+
+

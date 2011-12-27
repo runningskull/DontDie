@@ -1,0 +1,103 @@
+* {
+    /* simple, inefficient reset */
+    margin:     0;
+    padding:    0;
+}
+
+body {
+    font-family:    "Helvetica Neue", Helvetica, sans-serif;
+}
+
+p {
+    margin-top: 1.25em;
+}
+
+    p div {
+        display: inline-block;
+    }
+
+header {
+    text-align: center;
+    background: #f2f2f2;
+}
+
+#message {
+    width:          640px;
+    margin:         0 auto;
+    padding-bottom: 2em;
+}
+
+h1, h2 {
+    text-align: center;
+    color:      #777;
+}
+
+h1 {
+    text-transform: uppercase;
+    padding-top:    0.5em;
+    margin-bottom:  0.25em;
+    font-size:      2.5em;
+}
+
+h2 {
+    font-size:      1.125em;
+    font-weight:    normal;
+    font-style:     italic;
+    border-bottom:  2px solid #ddd;
+    padding-bottom: 1em;
+}
+
+#message {
+    margin-top:     1.5em;
+    font-size:      1.5em;
+    font-family:    'Architects Daughter', "Georgia", serif;
+    line-height:    2em;
+}
+
+input[type=text] {
+    font-family:    Helvetica, sans-serif;
+    border:         1px dashed #ddd;
+    border-bottom:  1px solid #999;
+    font-size:      1.5em;
+}
+
+.placeholder {
+    color:      #bbb;
+    font-style: italic;
+}
+
+label {
+    font-family:    "Helvetica Neue", Helvetica, sans-serif;
+    font-size:      0.675em;
+    padding-left:   0.5em;
+    color:          #777;
+}
+
+label.checked {
+    color:  #333;
+}
+
+i {
+    text-decoration:    line-through;
+    color:              #ccc;
+}
+
+textarea {
+    display:    block;
+    width:      97%;
+    padding:    1.5%;
+    font-size:  0.75em;
+    height:     5em;
+}
+
+#name            { width: 5.5em; }
+#location        { width: 600px; margin-right: 0.25em; }
+
+#start-date,
+#end-date { 
+    width: 12em;
+    font-size: 1em;
+}
+
+
+
